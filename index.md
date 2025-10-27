@@ -8,7 +8,7 @@
 
 ## Introduction
 
-Welcome to the official repository for **_Ecology and Conservation of Mormyridae in the Niger River: A Practical Python Guide to Open Source Geospatial Tools_**. This repository contains all the code examples featured in the book, designed to help you learn and apply Python for geospatial analysis using open-source tools.
+Welcome to the official repository for **_Ecology and Conservation of Mormyridae in the Niger River_**. This repository contains all the code examples featured in the book, designed to help you learn and apply Python for geospatial analysis using open-source tools.
 
 ## Get the Book
 
