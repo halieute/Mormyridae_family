@@ -5,7 +5,7 @@ jupytext:
     format_name: myst
     format_version: 0.13
     jupytext_version: 1.18.1
-title: How to Write and Publish a Book
+title: Part one
 subtitle: Using Jupyter Book to Write and Publish a Book
 authors:
   - name: Qiusheng Wu
