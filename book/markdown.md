@@ -5,7 +5,7 @@ jupytext:
     format_name: myst
     format_version: 0.13
     jupytext_version: 1.18.1
-title: Introduction to Open Publishing
+title: Introduction to Mormyridae family
 subtitle: Using Jupyter Book for Open Publishing
 authors:
   - name: Qiusheng Wu
