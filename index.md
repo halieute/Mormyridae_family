@@ -19,8 +19,8 @@ You can also add figures to your book.
 
 :::{figure} cover.jpg
 :label: gispro-book-cover
-:alt: GISPro Book Cover
+:alt: Mormyridae Book Cover
 :align: center
 
-GIS Programming with Python Book Cover.
+Ecology and Conservation of Mormyridae in the Niger River.
 :::
