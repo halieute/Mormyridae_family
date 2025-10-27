@@ -17,7 +17,7 @@ Welcome to the official repository for **_Ecology and Conservation of Mormyridae
 
 If you use this book in your research or teaching, please consider citing it as follows:
 
-> Souleymane, M.N.S. (2025). _Introduction to GIS Programming: A Practical Python Guide to Open Source Geospatial Tools_.
+> Souleymane, M.N.S. (2025). _Ecology and Conservation of Mormyridae in the Niger River: A Comprehensive Study of Morphometrics, Population Dynamics, and Sustainable Management_.
 
 :::{figure} cover.jpg
 :label: gispro-book-cover
