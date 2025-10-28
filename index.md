@@ -75,7 +75,7 @@ To download a PDF version of the complete Table of Contents, please visit <https
 
 ## About the Author
 
-Dr. Souleymane Maman Nouri Souley is a Senior Research Scientist at Atlantic University's Department of Marine Biology, specializing in West African freshwater ecology. With over 6 years of field research in the Niger Basin, his work focuses on fish population dynamics, sustainable fisheries management, and climate change impacts on aquatic ecosystems. He has published extensively on Mormyridae ecology, including seminal papers on length-weight relationships, diversity assessments, and exploitation parameters that form the foundation of this comprehensive volume.
+Msc. Souleymane Maman Nouri Souley is a Senior Research Scientist at Atlantic University's Department of Marine Biology, specializing in West African freshwater ecology. With over 6 years of field research in the Niger Basin, his work focuses on fish population dynamics, sustainable fisheries management, and climate change impacts on aquatic ecosystems. He has published extensively on Mormyridae ecology, including seminal papers on length-weight relationships, diversity assessments, and exploitation parameters that form the foundation of this comprehensive volume.
 
 As founding coordinator of the Niger River Conservation Initiative, Dr. Souley bridges scientific research with community-based conservation programs, ensuring that ecological insights translate into tangible protection strategies for West Africa's vital freshwater resources.
 
