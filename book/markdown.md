@@ -26,15 +26,7 @@ keywords:
   - Sustainable Fisheries
 license: CC-BY-4.0
 abstract: |
-  This comprehensive monograph synthesizes a decade of research on Mormyridae (elephantfishes) 
-  in the Niger River, presenting novel insights into growth polymorphisms, population dynamics, 
-  and conservation strategies. Through systematic analysis of standard length, total length, 
-  weight measurements, and growth type classifications across multiple species, this work 
-  establishes essential baselines for sustainable management while revealing previously 
-  undocumented ecological patterns in West African freshwater ecosystems. The integrated 
-  approach bridges fundamental ichthyology with practical conservation applications, 
-  providing fisheries managers, researchers, and conservation practitioners with 
-  evidence-based frameworks for protecting these unique electrosensory specialists.
+  This comprehensive monograph synthesizes a decade of research on Mormyridae (elephantfishes) in the Niger River, resenting novel insights into growth polymorphisms, population dynamics, and conservation strategies. Through systematic analysis of standard length, total length, weight measurements, and growth type classifications across multiple species, this work establishes essential baselines for sustainable management while revealing previously undocumented ecological patterns in West African freshwater ecosystems. The integrated approach bridges fundamental ichthyology with practical conservation applications, providing fisheries managers, researchers, and conservation practitioners with evidence-based frameworks for protecting these unique electrosensory specialists.
 exports:
   - format: docx
   - format: pdf
