@@ -5,17 +5,36 @@ jupytext:
     format_name: myst
     format_version: 0.13
     jupytext_version: 1.18.1
-title: Introduction to Mormyridae family
-subtitle: Using Jupyter Book for Open Publishing
+title: Ecology and Conservation of Mormyridae in the Niger River
+subtitle: A Comprehensive Study of Morphometrics, Population Dynamics, and Sustainable Management
 authors:
-  - name: Qiusheng Wu
+  - name: Souleymane Maman Nouri Souley
     affiliations:
-      - University of Tennessee
-    orcid: 0000-0001-5437-4073
-    email: qwu18@utk.edu
+      - Department of Marine Biology, Atlantic Technical University
+    orcid: 0009-0007-9857-0392
+    email: souleymanemamannourisouley1995@gmail.com
+    corresponding: true
+date: 2025
+keywords:
+  - Mormyridae
+  - Niger River
+  - Fish Ecology
+  - Conservation Biology
+  - Morphometrics
+  - Population Dynamics
+  - West Africa
+  - Sustainable Fisheries
 license: CC-BY-4.0
 abstract: |
-  This tutorial introduces open publishing techniques using Jupyter Book and demonstrates how to effectively publish your research.
+  This comprehensive monograph synthesizes a decade of research on Mormyridae (elephantfishes) 
+  in the Niger River, presenting novel insights into growth polymorphisms, population dynamics, 
+  and conservation strategies. Through systematic analysis of standard length, total length, 
+  weight measurements, and growth type classifications across multiple species, this work 
+  establishes essential baselines for sustainable management while revealing previously 
+  undocumented ecological patterns in West African freshwater ecosystems. The integrated 
+  approach bridges fundamental ichthyology with practical conservation applications, 
+  providing fisheries managers, researchers, and conservation practitioners with 
+  evidence-based frameworks for protecting these unique electrosensory specialists.
 exports:
   - format: docx
   - format: pdf
@@ -23,151 +42,146 @@ exports:
     template: lapreprint-typst
 ---
 
-# Introduction to Mormyridae family
+# Preface
 
-Whether you write your book's content in Jupyter Notebooks (`.ipynb`) or
-in regular markdown files (`.md`), you'll write in the same flavor of markdown
-called **MyST Markdown**.
+## Introduction
 
-## What is MyST?
+Mormyridae (elephantfishes) represent one of Africa's most ecologically significant freshwater fish families, renowned for their electrosensory capabilities and role as bioindicators in river ecosystems. In the Niger River basin, these species face unprecedented threats from habitat degradation, overfishing, and climate change impacts. Yet comprehensive studies integrating their morphometrics, population dynamics, and conservation needs remain scarce.
 
-MyST stands for "Markedly Structured Text". It
-is a slight variation on a flavor of markdown called "CommonMark" markdown,
-with small syntax extensions to allow you to write **roles** and **directives**
-in the Sphinx ecosystem.
+This book synthesizes a decade of field research to address this critical gap. Through systematic analysis of standard length (SL), total length (TL), total weight (TW), and growth type classifications, we provide the first holistic examination of Mormyridae ecology in the Niger River. Our findings establish essential baselines for sustainable management while revealing novel insights into growth polymorphism patterns previously undocumented in West African populations.
 
-## What are roles and directives?
+## Who is This Book For?
 
-Roles and directives are two of the most powerful tools in Jupyter Book. They
-are kind of like functions, but written in a markup language. They both
-serve a similar purpose, but **roles are written in one line**, whereas
-**directives span many lines**. They both accept different kinds of inputs,
-and what they do with those inputs depends on the specific role or directive
-that is being called.
+This book serves multiple audiences committed to African freshwater conservation:
 
-### Using a directive
+**Research Scientists** studying fish ecology, evolutionary biology, or aquatic conservation who need comprehensive morphometric data and population models.
 
-At its simplest, you can insert a directive into your book's content like so:
+**Fisheries Managers** responsible for sustainable resource use in the Niger Basin seeking evidence-based harvest guidelines and monitoring protocols.
 
-````
-```{mydirectivename}
-My directive content
-```
-````
+**Conservation Practitioners** working on riverine protected areas who require species vulnerability assessments and habitat protection strategies.
 
-This will only work if a directive with name `mydirectivename` already exists
-(which it doesn't). There are many pre-defined directives associated with
-Jupyter Book. For example, to insert a note box into your content, you can
-use the following directive:
+**Academic Researchers and Students** in ichthyology, aquatic ecology, or conservation biology looking for methodological frameworks in fish population analysis.
 
-````
-```{note}
-Here is a note
-```
-````
+**Policy Makers** developing biodiversity action plans for West African water resources who need scientifically-grounded recommendations.
 
-This results in:
+**Local Community Organizations** engaged in co-management initiatives who benefit from accessible ecological insights.
 
-```{note}
-Here is a note
-```
+While some sections assume basic knowledge of fish biology and statistics, the core findings are presented with sufficient context for dedicated conservation practitioners from related fields.
 
-In your built book.
+## What This Book Covers
 
-For more information on writing directives, see the
-[MyST documentation](https://myst-parser.readthedocs.io/).
+The book is organized into five integrated sections:
 
-### Using a role
+**Research Foundations** establishes the ecological context of the Niger River and Mormyridae biology, detailing our longitudinal monitoring methodology.
 
-Roles are very similar to directives, but they are less-complex and written
-entirely on one line. You can insert a role into your book's content with
-this pattern:
+**Morphometric Analysis** presents core findings on:
+- Size-weight relationships across species
+- Growth type classification system
+- Condition factor variations
 
-```
-Some content {rolename}`and here is my role's content!`
-```
+**Population Dynamics** examines:
+- *Mormyrus rume* exploitation status
+- Diversity and abundance patterns
+- Reproductive ecology metrics
 
-Again, roles will only work if `rolename` is a valid role's name. For example,
-the `doc` role can be used to refer to another page in your book. You can
-refer directly to another page by its relative path.
+**Conservation Applications** translates research into action:
+- Threat assessment framework
+- Sustainable management protocols
+- Long-term monitoring design
 
-For more information on writing roles, see the
-[MyST documentation](https://myst-parser.readthedocs.io/).
+**Synthesis and References** integrates key findings with comprehensive resources.
 
-### Adding a figure
+## To Get the Most Out of This Book
 
-You can also add figures to your book.
+**Apply the Management Frameworks**  
+The conservation strategies in Part IV are designed for adaptation to local contexts. Test them in your management area and adjust parameters based on specific ecosystem conditions.
 
-```text
-:::{figure} https://assets.gishub.org/images/book-cover.png
-:label: gispro-book-cover
-:alt: GISPro Book Cover
-:align: center
-:width: 100%
+**Utilize the Analytical Approaches**  
+Our statistical models for population analysis (e.g., mortality rate calculations in Chapter 7) can be adapted to other fish species assessments.
 
-GIS Programming with Python Book Cover.
-:::
-```
+**Explore the Growth Type Classification**  
+The morphometric criteria in Chapter 5 provide a replicable framework for identifying growth polymorphisms in other freshwater taxa.
 
-:::{figure} https://assets.gishub.org/images/book-cover.png
-:label: gispro-book-cover
-:alt: GISPro Book Cover
-:align: center
+**Access the Companion Resources**  
+Supplemental materials include:
+- Full measurement datasets
+- R scripts for statistical analysis
+- Field protocol handbooks
 
-GIS Programming with Python Book Cover.
-:::
+## Conventions Used in This Book
 
-### Adding a citation
+**Measurement Standards**  
+All morphological data follows international protocols:
+- SL: Standard length (mm)
+- TL: Total length (mm)
+- TW: Total weight (g)
+- K: Fulton's condition factor
 
-You can also cite references that are stored in a `bibtex` file. For example,
-the following syntax: `` {cite}`holdgraf_evidence_2014` `` will render like
-this: {cite}`holdgraf_evidence_2014`.
+| Abbreviation | Definition | Unit |
+|-------------|------------|------|
+| SL | Standard Length | mm |
+| TL | Total Length | mm |
+| TW | Total Weight | g |
+| K | Fulton's Condition Factor | unitless |
+| LWR | Length-Weight Relationship | W = aLᵇ |
 
-Multiple citations can be used like this:
-{cite}`holdgraf_rapid_2016, holdgraf_encoding_2017`
+**Statistical Notation**  
+Common parameters are abbreviated consistently:
+- LWR: Length-weight relationship (W = aLᵇ)
+- Z: Total mortality coefficient
+- F: Fishing mortality coefficient
+- E: Exploitation rate
 
-Moreover, you can insert a bibliography into your page with this syntax:
-The `{bibliography}` directive must be used for all the `{cite}` roles to
-render properly.
-For example, if the references for your book are stored in `references.bib`,
-then the bibliography is inserted with:
+## Accessing the Research Data
 
-````
-```{bibliography}
-```
-````
+All primary datasets supporting this publication are available through Dryad:
 
-Resulting in a rendered bibliography that looks like:
+**<https://doi.org/[YOUR-DOI-HERE]>**
 
-<!-- ```{bibliography}
+Includes:
+- Raw measurement records (2015-2025)
+- Growth type classifications
+- Population census data
+- Environmental parameters
+- Statistical analysis scripts
 
-``` -->
+## Get in Touch
 
-### Executing code in your markdown files
+I welcome dialogue with readers and collaborators:
 
-If you'd like to include computational content inside these markdown files,
-you can use MyST Markdown to define cells that will be executed when your
-book is built. Jupyter Book uses _jupytext_ to do this.
+**For research collaboration:**  
+Email: ssouley@uta.cv
 
-First, add Jupytext metadata to the file. For example, to add Jupytext metadata
-to this markdown page, run this command:
+**For data inquiries:**  
+GitHub Issues: <https://github.com/halieute/mormyridae-niger-river/issues>
 
-```
-jupyter-book myst init markdown.md
-```
+**For conservation partnerships:**  
+Niger River Conservation Network: [Contact URL]
 
-Once a markdown file has Jupytext metadata in it, you can add the following
-directive to run the code at build time:
+## Acknowledgments
 
-````
-```{code-cell}
-print("Here is some code to execute")
-```
-````
+**Field Research Teams**  
+My deepest gratitude to the technicians from Atlantic University and local fishers who collected data under challenging field conditions.
 
-When your book is built, the contents of any `{code-cell}` blocks will be
-executed with your default Jupyter kernel, and their outputs will be displayed
-in-line with the rest of your content.
+**Scientific Collaborators**  
+Dr. [Name] (Taxonomy validation), Prof. [Name] (Statistical modeling), and Dr. [Name] (Habitat analysis).
 
-For more information about executing computational content with Jupyter Book,
-see [The MyST-NB documentation](https://myst-nb.readthedocs.io/).
+**Funding Partners**  
+National Science Foundation Grant #[Number] and Diffa University Research Initiative.
+
+**Local Communities**  
+Riverside communities of the Niger who shared traditional ecological knowledge.
+
+**Family Support**  
+To my family, thank you for your patience during extended field seasons.
+
+## About the Author
+
+**Souleymane Maman Nouri Souley** is a Senior Research Scientist at Atlantic University's Department of Marine Biology, specializing in West African freshwater ecology. With 12 years of field experience in the Niger Basin, his research focuses on fish population dynamics, sustainable fisheries management, and climate change impacts on aquatic ecosystems. 
+
+He has published extensively on Mormyridae ecology, including:
+- "Length-weight relationships of Mormyridae species in the Niger River" (Journal of Applied Ichthyology)
+- "First assessment of Mormyridae diversity in the Niger River" (African Journal of Aquatic Science)
+- "Exploitation parameters for Mormyrus rume" (Fisheries Research)
+
+As founding coordinator of the Niger River Conservation Initiative, he bridges scientific research with community-based conservation programs.
