@@ -1,4 +1,4 @@
-# Introduction tto Niger River Mormyridae Family monograpgy Book
+# Niger River Mormyridae Family monography Book
 
 [![image](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/giswqs/intro-gispro/HEAD)
 [![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/giswqs/intro-gispro/blob/main)
