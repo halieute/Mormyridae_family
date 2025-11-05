@@ -27,9 +27,9 @@ exports:
 
 ## Introduction
 
-Mormyridae (elephantfishes) represent one of Africa's most ecologically significant freshwater fish families, renowned for their electrosensory capabilities and role as bioindicators in river ecosystems. In the Niger River basin, these species face unprecedented threats from habitat degradation, overfishing, and climate change impacts. Yet comprehensive studies integrating their morphometrics, population dynamics, and conservation needs remain scarce.
+Mormyridae (elephantfishes) represent one of Africa's most ecologically significant freshwater fish families, renowned for their electrosensory capabilities and role as bioindicators in river ecosyste[...]
 
-This book synthesizes a decade of field research to address this critical gap. Through systematic analysis of standard length (SL), total length (TL), total weight (TW), and growth type classifications, we provide the first holistic examination of Mormyridae ecology in the Niger River. Our findings establish essential baselines for sustainable management while revealing novel insights into growth polymorphism patterns previously undocumented in West African populations.
+This book synthesizes a decade of field research to address this critical gap. Through systematic analysis of standard length (SL), total length (TL), total weight (TW), and growth type classification[...]
 
 ## Who is This Book For?
 
@@ -150,7 +150,7 @@ To my family, thank you for your patience during extended field seasons.
 
 ## About the Author
 
-**Souleymane Maman Nouri Souley** is a Senior Research Scientist at Atlantic University's Department of Marine Biology, specializing in West African freshwater ecology. With 12 years of field experience in the Niger Basin, his research focuses on fish population dynamics, sustainable fisheries management, and climate change impacts on aquatic ecosystems. 
+**Souleymane Maman Nouri Souley** is a Senior Research Scientist at Atlantic University's Department of Marine Biology, specializing in West African freshwater ecology. With 12 years of field experien[...]
 
 He has published extensively on Mormyridae ecology, including:
 - "Length-weight relationships of Mormyridae species in the Niger River" (Journal of Applied Ichthyology)
