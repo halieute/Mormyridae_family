@@ -8,24 +8,44 @@ on:
 # This job installs dependencies, build the book, and pushes it to `gh-pages`
 jobs:
   build-the-book:
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
     strategy:
       matrix:
-        os: [ubuntu-latest]
-        python-version: ["3.11"]
-    steps:
-      - uses: actions/checkout@v5
+        python-version: ["3.12"]
 
-      # Install dependencies
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v6
+    steps:
+      - uses: actions/checkout@v4
         with:
-          python-version: ${{ matrix.python-version }}
+          fetch-depth: 0
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.4.12"
+          enable-cache: true
+
+      - name: Set up Python ${{ matrix.python-version }}
+        run: uv python install ${{ matrix.python-version }}
+
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          uv venv
+          uv pip install -r requirements.txt
 
       # Build the book
       - name: Build the book
         run: |
-          jupyter-book build .
+          uv run jupyter-book build .
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v3.0
+        with:
+          publish-dir: "./_build/html"
+          production-branch: main
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          deploy-message: "Deploy from GitHub Actions"
+          enable-pull-request-comment: true
+          enable-commit-comment: false
+          overwrites-pull-request-comment: true
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
