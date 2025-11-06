@@ -13,9 +13,9 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        python-version: ["3.12"]
+        python-version: ["3.11"]
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v4
 
       # Install dependencies
       - name: Set up Python ${{ matrix.python-version }}
