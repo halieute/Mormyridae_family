@@ -74,16 +74,16 @@ The book is organized into five integrated sections:
 
 ## To Get the Most Out of This Book
 
-**Apply the Management Frameworks**  
+**Apply the Management Frameworks**
 The conservation strategies in Part IV are designed for adaptation to local contexts. Test them in your management area and adjust parameters based on specific ecosystem conditions.
 
-**Utilize the Analytical Approaches**  
+**Utilize the Analytical Approaches**
 Our statistical models for population analysis (e.g., mortality rate calculations in Chapter 7) can be adapted to other fish species assessments.
 
-**Explore the Growth Type Classification**  
+**Explore the Growth Type Classification**
 The morphometric criteria in Chapter 5 provide a replicable framework for identifying growth polymorphisms in other freshwater taxa.
 
-**Access the Companion Resources**  
+**Access the Companion Resources**
 Supplemental materials include:
 - Full measurement datasets
 - R scripts for statistical analysis
@@ -91,14 +91,14 @@ Supplemental materials include:
 
 ## Conventions Used in This Book
 
-**Measurement Standards**  
+**Measurement Standards**
 All morphological data follows international protocols:
 - SL: Standard length (mm)
 - TL: Total length (mm)
 - TW: Total weight (g)
 - K: Fulton's condition factor
 
-**Statistical Notation**  
+**Statistical Notation**
 Common parameters are abbreviated consistently:
 - LWR: Length-weight relationship (W = aLᵇ)
 - Z: Total mortality coefficient
@@ -122,30 +122,30 @@ Includes:
 
 I welcome dialogue with readers and collaborators:
 
-**For research collaboration:**  
+**For research collaboration:**
 Email: ssouley@uta.cv
 
-**For data inquiries:**  
+**For data inquiries:**
 GitHub Issues: <https://github.com/halieute/mormyridae-niger-river/issues>
 
-**For conservation partnerships:**  
+**For conservation partnerships:**
 Niger River Conservation Network: [Contact URL]
 
 ## Acknowledgments
 
-**Field Research Teams**  
+**Field Research Teams**
 My deepest gratitude to the technicians from Atlantic University and local fishers who collected data under challenging field conditions.
 
-**Scientific Collaborators**  
+**Scientific Collaborators**
 Dr. [Name] (Taxonomy validation), Prof. [Name] (Statistical modeling), and Dr. [Name] (Habitat analysis).
 
-**Funding Partners**  
+**Funding Partners**
 National Science Foundation Grant #[Number] and Diffa University Research Initiative.
 
-**Local Communities**  
+**Local Communities**
 Riverside communities of the Niger who shared traditional ecological knowledge.
 
-**Family Support**  
+**Family Support**
 To my family, thank you for your patience during extended field seasons.
 
 ## About the Author
